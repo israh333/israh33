@@ -1,0 +1,21 @@
+header {
+  float: right;
+}
+
+nav{
+  float: left;
+}
+
+section{
+  text-align: center;
+}
+
+footer{
+  background-color: grey
+  height: 10px;
+  width: 100%;
+  bottom:0;
+  left: 0;
+  z-index: 100;
+  position: absolute;
+}
