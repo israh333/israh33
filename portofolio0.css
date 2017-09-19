@@ -6,7 +6,8 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color:grey;
+  background-color:#68929A  ;
+  text-align:center;
 }
 
 #wrapper {
@@ -23,13 +24,13 @@ body {
 
 ul li {
   width:200px;
-  background: #aaa;
+  background: gray  ;
   padding: 0px;
-
-  text-align:center;
+  text-align: center;
   height:70px;
   text-transform: uppercase;
   line-height:70px;
+  display: block;
 
 }
 
@@ -53,10 +54,11 @@ ul li a:hover, ul li a:active {
 float:left;
 height:500px;
 width:200px;
-background-color:#ddd;
+background-color:grey;
 color:white;
 font-family: 'Quicksand', sans-serif;
 text-transform: uppercase;
+
 
 
 
