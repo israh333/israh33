@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Lato|Lobster|Open+Sans+Condensed:300|Oswald|Quicksand|Raleway');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color:grey;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#header {
+  width:1200px;
+}
+#menu{
+  list-style-type: none;
+}
+
+ul li {
+  width:200px;
+  background: #aaa;
+  padding: 0px;
+
+  text-align:center;
+  height:70px;
+  text-transform: uppercase;
+  line-height:70px;
+
+}
+
+ul li a:link, ul li a:visted{
+  color: white;
+  text-decoration: none;
+  display: block;
+  background-color:black;
+
+
+}
+
+ul li a:hover, ul li a:active {
+  color: white;
+  background-color:black;
+  display: block;
+    text-decoration: none;
+
+}
+#israh{
+float:left;
+height:500px;
+width:200px;
+background-color:#ddd;
+color:white;
+font-family: 'Quicksand', sans-serif;
+text-transform: uppercase;
+
+
+
+
+
+/*
+header h1 {
+  font-size: 300%;
+  color: black;
+  text-align: right;
+  text-shadow: 5px 5px 7px #000000;
+}
+
+
+section {
+  padding: 5px;
+  margin: 5px;
+  border: double 4px black;
+}
+
+section article {
+  border: 3px solid black;
+  border-radius: 0px 20px 20px 20px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  background: white;
+}
+
+footer {
+  background: gray;
+}
+
+h3{
+  color: black;
+  border: double 10px black;
+}*/
