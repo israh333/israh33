@@ -98,10 +98,11 @@ font-weight: bold;
 
 
 footer {
-  padding-top:20px;
-  color: white;
+padding-top:20px;
+color: white;
 float:left;
-width:1200px;
+width:1500px;
+
 
 }
 a:link, a:visited{
@@ -117,6 +118,13 @@ a:hover, a:active {
   text-decoration: none;
 
 }
+
+input {
+  color: gray;
+
+
+}
+
 
 
 
