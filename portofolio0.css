@@ -8,7 +8,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   background-color: #2F3636;
   text-align: left;
-  color: white ;
+  color: red;
 }
 
 #wrapper {
@@ -25,8 +25,31 @@ body {
   margin-top:40px;
 
 
-}
 
+}
+#israh{
+clear:both:
+height:550px;
+width:200px;
+background-color:#657373;
+color:white;
+font-family: 'Quicksand', sans-serif;
+text-transform: uppercase;
+text-align: center;
+padding-top:530px;
+font-size: 14px;
+font-weight: bold;
+top:460px;
+padding-bottom: 20px;
+
+
+}
+#israh p{
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+}
 ul li {
   width:200px;
   background: #4FA1A5    ;
@@ -51,19 +74,21 @@ ul li a:link, ul li a:visited{
 
 ul li a:hover, ul li a:active {
   color: white;
-  background-color:#2F3636;
+  background-color:#657373;
   display: block;
   text-decoration: none;
 
 }
+
 .content{
   height:400px;
   float: left;
   padding-top:40px;
   padding-left:40px;
-  width: 800px;
+  width: 900px;
   font-family: 'Quicksand', sans-serif;
   font-size: 14px;
+  color: white;
 
 }
 .content h1, .content h2, .content p{
@@ -80,28 +105,55 @@ ul li a:hover, ul li a:active {
 .content p{
 padding-bottom: 40px;
 }
-#israh{
-float:left;
-height:350px;
-width:200px;
-background-color:grey;
-color:white;
-font-family: 'Quicksand', sans-serif;
-text-transform: uppercase;
-text-align: center;
-padding-top:20px;
-font-size: 14px;
-font-weight: bold;
 
+.cyan{
+  color: #4FA1A5;
+}
+
+.cyan2{
+  color: #4FA1A5;
+  padding-top: 30px;
 }
 
 
 
+.list{
+  list-style-type: circle;
+  padding-bottom: 10px;
+
+}
+
+
+input{
+
+  width: 500px;
+  height: 20px;
+  padding-top: : 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+input[type="submit"], input[type="reset"]{
+
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #54DEDE;
+  color: black;
+  width: 200px;
+  height: 50px;
+  padding-top: : 40px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
 footer {
 padding-top:20px;
 color: white;
-float:left;
+float: left;
 width:1500px;
+clear: both;
+
 
 
 }
@@ -125,6 +177,42 @@ input {
 
 }
 
+#badges  {
+  color: black !important;
+
+}
+
+
+body { margin:10px auto; text-align:center; }
+.content { max-width:800px;text-align:left; margin:auto; }
+
+.simple-ss {
+  width:800px;
+  height:250px;
+  margin:auto;
+  background-image:url("../images/pictures");
+  background-position:0;
+  background-repeat:no-repeat;
+  background-size:cover;
+
+
+  animation-name: slide;
+  animation-duration: 13s;
+  animation-direction: normal;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+/* NOTE CODEPEN AUTOGENERATING -PREFIXES */
+@keyframes slide {
+  0% {background-position:0 0;}
+  16.66% {background-position:0 0;}
+  33.32% {background-position:-800px 0;}
+  49.98% {background-position:-800px 0;}
+  66.64% {background-position:-1600px 0;}
+  83.30% {background-position:-1600px 0;}
+  100% {background-position:0 0;}
+}
 
 
 
